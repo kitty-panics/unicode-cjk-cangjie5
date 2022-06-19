@@ -273,8 +273,8 @@ U+FA0F	﨏	gcor
 U+FA10	塚	zcgbm
 U+FA11	﨑	uytr
 U+FA12	晴	zcaqm
-U+FA13	﨓	dtoi,xdtoi
-U+FA14	﨔	dfcq,xdfcq
+U+FA13	﨓	dtoi
+U+FA14	﨔	dfcq
 U+FA15	凞	zciuf
 U+FA16	猪	zckhj
 U+FA17	益	zccmc
@@ -285,11 +285,11 @@ U+FA1B	福	zcmfm
 U+FA1C	靖	zcytq
 U+FA1D	精	zcfdq
 U+FA1E	羽	zcsms
-U+FA1F	﨟	tbav,xtbav
+U+FA1F	﨟	tbav
 U+FA20	蘒	zcthd
 U+FA21	﨡	lihqm
 U+FA22	諸	zcyrj
-U+FA23	﨣	goyj,xgoyj
+U+FA23	﨣	goyj
 U+FA24	﨤	ynhe
 U+FA25	逸	zcyna
 U+FA26	都	zcjan

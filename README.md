@@ -16,18 +16,18 @@
 ## 数据格式
 
 每个文件一行一字，以 Tab (制表符) 进行分割，如果某字存在多个编码时，以
-`,` (英文逗号)字符进行分割，例：
+`,` (英文逗号) 字符进行分割，例：
 
 ```Text
-U+3007	〇	xxxxx
 U+4E00	一	m
 U+4E01	丁	mn
 U+4E02	丂	mvs
+U+4E03	七	ju,jv
 ```
 
 ## 文件列表
 
-+ [All.txt] (整合下面 CJK/A/B/C/D/E/F/G/Compatibility/Compatibility-Supplement)
++ [All.txt] (整合下面 CJK-Basic/A/B/C/D/E/F/G/Compat/Compat-Supplement)
 + [CJK-Unified-Ideographs.txt] (中日韩统一表意文字)
 + [CJK-Unified-Ideographs-Extension-A.txt] (中日韩统一表意文字扩展区 A)
 + [CJK-Unified-Ideographs-Extension-B.txt] (中日韩统一表意文字扩展区 B)
@@ -63,9 +63,10 @@ U+4E02	丂	mvs
 
 参考资料可在 [参考资料] 目录下找到。其中非文件类的在线资料将转换成 PDF 快照存放。
 
-+ [Jackchows/Cangjie5]
++ 2022-03-12 ([c110e55]) 更新的 [Jackchows/Cangjie5]
 
 [参考资料]: 参考资料
+[c110e55]: https://github.com/Jackchows/Cangjie5/commit/c110e551587f64e40c92bc13a325bbcd2d46ff29
 [Jackchows/Cangjie5]: https://github.com/Jackchows/Cangjie5
 
 ## 相关项目
@@ -76,19 +77,12 @@ U+4E02	丂	mvs
 
 [cn-tables]: https://github.com/kitty-panics/cn-tables
 
-### [CNS11643-Unicode-Cangjie]
-
-[CNS11643]、Unicode、Cangjie 对照表。
-
-[CNS11643-Unicode-Cangjie]: https://github.com/kitty-panics/CNS11643-Unicode-Cangjie
-[CNS11643]: https://data.gov.tw/dataset/5961
-
 ### [unicode-cjk]
 
-整理所有 [Unicode] CJK 字符。
+整理所有 [Unicode CJK] 字符。
 
 [unicode-cjk]: https://github.com/kitty-panics/unicode-cjk
-[Unicode]: https://www.unicode.org/Public/UNIDATA/Blocks.txt
+[Unicode CJK]: https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
 
 ### [unicode-cjk-98wubi]
 
@@ -104,12 +98,20 @@ U+4E02	丂	mvs
 [unicode-cjk-cangjie5]: https://github.com/kitty-panics/unicode-cjk-cangjie5
 [仓颉5]: https://github.com/Jackchows/Cangjie5
 
+### [unicode-cjk-cns11643-cangjie]
+
+[Unicode]、[CNS11643]、Cangjie 对照表。
+
+[unicode-cjk-cns11643-cangjie]: https://github.com/kitty-panics/unicode-cjk-cns11643-cangjie
+[Unicode]: https://www.unicode.org/Public/UCD/latest
+[CNS11643]: https://data.gov.tw/dataset/5961
+
 ### [unicode-cjk-ids]
 
 备份、修补 [chise/ids]。
 
 [unicode-cjk-ids]: https://github.com/kitty-panics/unicode-cjk-ids
-[chise/ids]: http://git.chise.org/git/chise/ids.git
+[chise/ids]: https://gitlab.chise.org/CHISE/ids.git
 
 ### [unicode-cjk-zhlf]
 
