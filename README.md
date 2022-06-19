@@ -19,6 +19,10 @@
 `,` (英文逗号)字符进行分割，例：
 
 ```Text
+U+3007	〇	xxxxx
+U+4E00	一	m
+U+4E01	丁	mn
+U+4E02	丂	mvs
 ```
 
 ## 文件列表
@@ -53,7 +57,7 @@
 [CJK-Compatibility-Ideographs.txt]: CJK-Compatibility-Ideographs.txt
 [CJK-Compatibility-Ideographs-Supplement.txt]: CJK-Compatibility-Ideographs-Supplement.txt
 
-[Compat 区没有编码的字]: 无码.CJK-Unified-Ideographs.txt
+[Compat 区没有编码的字]: 无码.CJK-Compatibility-Ideographs.txt
 
 ## 参考资料
 
