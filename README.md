@@ -39,6 +39,8 @@ U+4E03	七	ju,jv
 + [CJK-Compatibility-Ideographs.txt] (中日韩兼容表意文字)
     + [Compat 区没有编码的字]
 + [CJK-Compatibility-Ideographs-Supplement.txt] (中日韩兼容表意文字增补)
++ [CJK-Radicals-Supplement.txt] (中日韩汉字部首补充)
++ [CJK-Strokes.txt] (中日韩笔画)
 
 **注：**
 
@@ -56,6 +58,8 @@ U+4E03	七	ju,jv
 [CJK-Unified-Ideographs-Extension-G.txt]: CJK-Unified-Ideographs-Extension-G.txt
 [CJK-Compatibility-Ideographs.txt]: CJK-Compatibility-Ideographs.txt
 [CJK-Compatibility-Ideographs-Supplement.txt]: CJK-Compatibility-Ideographs-Supplement.txt
+[CJK-Radicals-Supplement.txt]: CJK-Radicals-Supplement.txt
+[CJK-Strokes.txt]: CJK-Strokes.txt
 
 [Compat 区没有编码的字]: 无码.CJK-Compatibility-Ideographs.txt
 
